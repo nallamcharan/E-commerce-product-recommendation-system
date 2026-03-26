@@ -1,5 +1,5 @@
-🛍 Amazon Product Recommendation System
-📌 Problem Statement
+🛍  Product Recommendation System
+# 📌 Problem Statement
 
 In large-scale e-commerce platforms like Amazon, customers face difficulty in discovering relevant products due to the vast number of available items. This often leads to:
 
@@ -13,17 +13,17 @@ Decreased repeat purchases
 
 The goal of this project is to build an intelligent Product Recommendation System that suggests relevant products to users using multiple recommendation techniques.
 
-🎯 Project Objective
+# 🎯 Project Objective :
 
 To design and implement three types of recommendation systems:
 
-Content-Based Filtering
+➡️Content-Based Filtering
 
-Collaborative Filtering
+➡️Collaborative Filtering
 
-Hybrid Recommendation System
+➡️Hybrid Recommendation System
 
-The system recommends products based on:
+# The system recommends products based on:
 
 Product descriptions
 
@@ -31,7 +31,7 @@ User-product interactions
 
 Combined scoring approach
 
-📊 Dataset Overview
+# 📊 Dataset Overview
 
 30,000 Amazon products
 
@@ -61,8 +61,8 @@ Prime Availability
 
 Return Policy
 
-🧠 Approach
-1️⃣ Content-Based Recommendation
+# 🧠 Approach
+# 1️⃣ Content-Based Recommendation
 
 Used TF-IDF Vectorization on product descriptions
 
@@ -76,7 +76,7 @@ Does not require user history
 
 Works for new users
 
-2️⃣ Collaborative Filtering
+# 2️⃣ Collaborative Filtering
 
 Simulated user-product interaction matrix
 
@@ -92,7 +92,7 @@ Learns hidden patterns from user behavior
 
 Personalized recommendations
 
-3️⃣ Hybrid Recommendation System
+# 3️⃣ Hybrid Recommendation System
 
 Combined Content-Based and Collaborative scores
 
@@ -108,7 +108,7 @@ Reduces cold start problem
 
 Improves recommendation accuracy
 
-⚙️ Technologies Used
+# ⚙️ Technologies Used
 
 Python
 
@@ -127,5 +127,10 @@ TruncatedSVD
 Pickle (Model Serialization)
 
 Flask (For Deployment)
+ # Deployment 
 
-📁 Project Structure
+Finally deployed the system  using flask
+
+HTML templates
+
+Css desings
